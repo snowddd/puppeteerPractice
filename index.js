@@ -8,7 +8,7 @@ clear = async function ( selector) {
 
 (async () => {
   const browser = await puppeteer.launch({
-    //使用本機chorme來開啟
+    //使用本機chrome來開啟
     executablePath:'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
     headless: false,
     ignoreDefaultArgs: ['--disable-extensions'],
